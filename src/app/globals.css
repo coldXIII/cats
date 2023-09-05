@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.reactionButton {
+  @apply rounded-lg bg-white px-2 py-2 transition-all hover:bg-primaryLight;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(25, 5vw);
+  gap: 15px;
+}
+.mobileGridContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+.mobileGridItem {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.gridItem--1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.gridItem--2 {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.gridItem--3 {
+  grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.gridItem--4 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+.gridItem--5 {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 3;
+  grid-row-end: 7;
+}
+.gridItem--6 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+.gridItem--7 {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+.gridItem--8 {
+  grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start: 7;
+  grid-row-end: 11;
+}
+.gridItem--9 {
+  grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start: 11;
+  grid-row-end: 13;
+}
+.gridItem--10 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 9;
+  grid-row-end: 13;
+}
+.gridItem--11 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 13;
+  grid-row-end: 17;
+}
+.gridItem--12 {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 13;
+  grid-row-end: 15;
+}
+.gridItem--13 {
+  grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start: 13;
+  grid-row-end: 15;
+}
+.gridItem--14 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 17;
+  grid-row-end: 19;
+}
+.gridItem--15 {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 15;
+  grid-row-end: 19;
+}
+.gridItem--16 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 19;
+  grid-row-end: 21;
+}
+.gridItem--17 {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 19;
+  grid-row-end: 21;
+}
+.gridItem--18 {
+  grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start: 19;
+  grid-row-end: 23;
+}
+.gridItem--19 {
+  grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start: 23;
+  grid-row-end: 25;
+}
+.gridItem--20 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 21;
+  grid-row-end: 25;
+}
