@@ -1,6 +1,6 @@
 # Full Stack NextJS 13 App | React, Next JS, TypeScript, CatApi
 
-![PetsPaw](https://res.cloudinary.com/dxogh1ji2/image/upload/v1693203779/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_162_ef1c01.png)
+![PetsPaw](https://res.cloudinary.com/dxogh1ji2/image/upload/v1693990396/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_172_simsaz.png)
 
 ## Introduction
 
